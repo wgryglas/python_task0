@@ -34,4 +34,11 @@ Consider how to do it for high values of `n`
 
 ## Excercise 4
 
-Implement a function `PowerModulo(a,b,c)` which will calculate ![a^b mod n](https://latex.codecogs.com/gif.latex?a^b\\quad\\text{mod }n).
+Write a function `PowerModulo(a,b,n)` which will calculate the [reminder](https://en.wikipedia.org/wiki/Remainder) of `a^b` with respect to division by `n`:
+
+![a^b mod n](https://latex.codecogs.com/gif.latex?a^b\\quad\\text{mod }n)
+
+Implement is so that the value can be calculated for very high numbers (including `b`).
+
+*Clue*: To calculate `a^(2^k)~ you need only `k` multiplications
+
