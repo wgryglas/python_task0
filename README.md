@@ -5,4 +5,4 @@ Create a file `solution.py` with the described functions and a file `test.py` th
 ## Excercise 1
 
 Create a function Newton(n,m) which will calculate the Newton symbol n over m. This is equal to:
-![n over m](https://latex.codecogs.com/gif.latex?\left%28\begin{matrix}n\\m\end{matrix}\right%29%3D\frac{n!}{m!%28n-m%29!})
+![n over m](https://latex.codecogs.com/gif.latex?\\left(\\begin{matrix}n\\\\m\\end{matrix}\\right)%3D\\frac{n!}{m!(n-m)!})
