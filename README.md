@@ -30,4 +30,8 @@ Create a function `LotOfHash(n)` which will print one line for each row of the P
 #   #
 ##  ##
 ```
+Consider how to do it for high values of `n`
 
+## Excercise 4
+
+Implement a function `PowerModulo(a,b,c)` which will calculate ![a^b mod n](https://latex.codecogs.com/gif.latex?a^b\\quad\\text{mod }n).
