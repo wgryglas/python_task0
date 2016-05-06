@@ -57,5 +57,5 @@ For example:
 
 Implement is so that the value can be calculated for very high numbers (including `b`).
 
-*Clue*: To calculate `a^(2^k)~ you need only `k` multiplications
+Clue: *To calculate `a^(2^k)~ you need only `k` multiplications*
 
