@@ -38,6 +38,23 @@ Write a function `PowerModulo(a,b,n)` which will calculate the [reminder](https:
 
 ![a^b mod n](https://latex.codecogs.com/gif.latex?a^b\\quad\\text{mod }n)
 
+For example:
+```
+> PowerModulo(2,1,10)
+2
+> PowerModulo(2,2,10)
+4
+> PowerModulo(2,3,10)
+8
+> PowerModulo(2,4,10)
+6
+> PowerModulo(2,5,10)
+2
+> PowerModulo(2,6,10)
+4
+```
+
+
 Implement is so that the value can be calculated for very high numbers (including `b`).
 
 *Clue*: To calculate `a^(2^k)~ you need only `k` multiplications
