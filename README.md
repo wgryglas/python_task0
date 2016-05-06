@@ -60,5 +60,12 @@ Clue: *To calculate `a^(2^k)~ you need only `k` multiplications*
 
 ## Excercise 5
 
-Write a function `Intersect(a,b)` that for two tuples `a=[x1,y1,r1]` and `b=[x2,y2,r1]` will return a list of points of intersection of two circles, one with center at (`x1`,`y1`) and radious `r1` and the other at (`x2`,`y2`) and radious `r2`.
-
+Write a function `Intersect(a,b)` that for two tuples `a=[x1,y1,r1]` and `b=[x2,y2,r1]` will return a list of points of intersection of two circles, one with center at (`x1`,`y1`) and radious `r1` and the other at (`x2`,`y2`) and radious `r2`. For example:
+```
+> Intersect( (0,0,5), (6,0,5) )
+[ (3, 4), (3,-4) ]
+> Intersect( (0,0,5), (10,0,5) )
+[ (5, 0) ]
+> Intersect( (0,0,5), (15,0,5) )
+[ ]
+```
