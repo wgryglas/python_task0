@@ -1,0 +1,4 @@
+#!/bin/bash
+
+## Install needed libraries here
+# pip install numpy

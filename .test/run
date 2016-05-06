@@ -1,0 +1,22 @@
+#!/bin/bash
+
+set -e
+
+for i in solution.py test.py
+do
+  if ! test -f $i
+  then
+    echo "No solution.py"
+    exit -1
+  fi
+done
+
+echo "--- Running test.py ---"
+if ! python test.py
+then
+  echo "Running test.py failed"
+  exit -2
+fi
+echo "-----------------------"
+
+
