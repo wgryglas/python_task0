@@ -17,3 +17,17 @@ Create a function `Pascal(n)` which will return a list of `n` rows of elements o
 > Pascal(4)
 [ [1], [1,1], [1,2,1], [1,3,3,1] ]
 ```
+
+## Excercise 3
+
+Create a function `LotOfHash(n)` which will print one line for each row of the Pascal Triangle, in which all the odd numbers will be printed as `#`. For example:
+```python
+> LotOfHash(6)
+#
+##
+# #
+####
+#   #
+##  ##
+```
+
