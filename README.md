@@ -54,8 +54,11 @@ For example:
 4
 ```
 
-
 Implement is so that the value can be calculated for very high numbers (including `b`).
 
 Clue: *To calculate `a^(2^k)~ you need only `k` multiplications*
+
+## Excercise 5
+
+Write a function `Intersect(a,b)` that for two tuples `a=[x1,y1,r1]` and `b=[x2,y2,r1]` will return a list of points of intersection of two circles, one with center at (`x1`,`y1`) and radious `r1` and the other at (`x2`,`y2`) and radious `r2`.
 
